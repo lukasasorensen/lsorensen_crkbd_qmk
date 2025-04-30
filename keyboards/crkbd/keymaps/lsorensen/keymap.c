@@ -75,11 +75,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [3] = LAYOUT_split_3x6_3(
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------
-            KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_CAPS,              HYPR(KC_LEFT),   KC_HOME,   KC_END,   KC_TRNS,   KC_TRNS, HYPR(KC_RGHT),
+            KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_CAPS,              HYPR(KC_LEFT),   KC_HOME,   KC_END,   KC_TRNS,   C(S(KC_TAB)), HYPR(KC_RGHT),
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------
             KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,              KC_LEFT,   KC_DOWN,  KC_UP,     KC_RGHT,   KC_VOLU, KC_TRNS,
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------
-            KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,              KC_TRNS,   KC_PGDN,  KC_PGUP,   KC_TRNS,   KC_VOLD, KC_TRNS,
+            KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS,              C(KC_TAB),   KC_PGDN,  KC_PGUP,   KC_TRNS,   KC_VOLD, KC_TRNS,
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------
                            C(G(KC_SPC)),  MO(6),  HYPR(KC_UP),                                       LAG(KC_C), LM(6, MOD_LSFT), KC_TRNS
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------
